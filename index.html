@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Aranca</title>
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2-bootstrap-theme/0.1.0-beta.10/select2-bootstrap.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class="home">
+	<div class="wrapper">
+
+		<header class="header">
+			<div class="searchform-wrap">
+				<form class="searchform">
+					<input type="search" name="search" class="form-control" placeholder="Search..." required>
+					<button type="submit"><img src="images/search-icon.svg" alt="search-icon" width="36" height="36"></button>
+				</form>
+				<div class="closesearch"><i class="fa fa-times"></i></div>
+			</div>
+			<div class="top-header">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.svg" alt="logo" width="185" height="28"></a>
+				</div>
+				<div class="navigationbox">
+					<div class="mainnav">
+						<ul class="primarynav">
+							<li><a href="#">Services</a><span class="arrowdropmain"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+								<ul class="secnav">
+									<li class="hasdrop" title="growth_advisory"><a href="#"><img src="images/icons/growth_advisory.png" alt="growth_advisory" width="25">Growth Advisory</a><span class="arrowdrop"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+			                            <ul class="thirdnav">
+			                                <li><a href="#">Overview</a></li>
+			                                <li><a href="#">Solutions</a></li>
+			                                <li><a href="#">Industries</a></li>
+			                            </ul>
+									</li>
+									<li class="hasdrop" title="ip-logo"><a href="#"><img src="images/icons/ip-logo.jpg" alt="ip-logo" width="25">Technology | IP Research &amp; Intelligence</a><span class="arrowdrop"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+			                            <ul class="thirdnav">
+			                                <li><a href="#">Overview</a></li>
+			                                <li><a href="#">Solutions</a></li>
+			                                <li><a href="#">Industries</a></li>
+			                            </ul>
+									</li>
+									<li class="hasdrop" title="pr-logo"><a href="#"><img src="images/icons/pr-logo.jpg" alt="pr-logo" width="25">Procurement &amp; Supply Chain Intelligence</a><span class="arrowdrop"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+			                            <ul class="thirdnav">
+			                                <li><a href="#">Overview</a></li>
+			                                <li><a href="#">Solutions</a></li>
+			                                <li><a href="#">Industries</a></li>
+			                            </ul>
+									</li>
+									<li class="hasdrop" title="ir-logo"><a href="#"><img src="images/icons/ir-logo.jpg" alt="ir-logo" width="25">Investment Research &amp; Analytics</a><span class="arrowdrop"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+			                            <ul class="thirdnav">
+			                                <li><a href="#">Overview</a></li>
+			                                <li><a href="#">Solutions</a></li>
+			                                <li><a href="#">Industries</a></li>
+			                            </ul>
+									</li>
+									<li class="hasdrop" title="qr-logo"><a href="#"><img src="images/icons/qr-logo.jpg" alt="qr-logo" width="25">Quantitative Research</a><span class="arrowdrop"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+			                            <ul class="thirdnav">
+			                                <li><a href="#">Overview</a></li>
+			                                <li><a href="#">Solutions</a></li>
+			                                <li><a href="#">Industries</a></li>
+			                            </ul>
+									</li>
+									<li class="hasdrop" title="va-logo"><a href="#"><img src="images/icons/va-logo.jpg" alt="va-logo" width="25">Valuation &amp; Financial Advisory</a><span class="arrowdrop"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+			                            <ul class="thirdnav">
+			                                <li><a href="#">Overview</a></li>
+			                                <li><a href="#">Solutions</a></li>
+			                                <li><a href="#">Industries</a></li>
+			                            </ul>
+									</li>
+									<li class="hasdrop" title="pps-logo"><a href="#"><img src="images/icons/pps-logo.jpg" alt="pps-logo" width="25">Editorial &amp; Presentation</a><span class="arrowdrop"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+			                            <ul  class="thirdnav">
+			                                <li><a href="#">Overview</a></li>
+			                                <li><a href="#">Solutions</a></li>
+			                                <li><a href="#">Industries</a></li>
+			                            </ul>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#">Knowledge Library</a>
+								<ul class="secnav"><span class="arrowdropmain"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+									<li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i>Blogs & Opinions</a></li>
+									<li><a href="#"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Articles</a></li>
+	                    			<li><a href="#"><i class="fa fa-file-text-o" aria-hidden="true"></i>Special Reports</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Media Coverage</a></li>
+							<li><a href="#">About Us</a><span class="arrowdropmain"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+								<ul class="secnav">
+				                    <li><a href="#">What We Believe</a></li>
+									<li><a href="#">Our Values</a></li>
+				                    <li><a href="#">Our Team</a></li>
+			                    </ul>
+							</li>
+							<li><a href="#">Careers</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</div>
+					<div class="socialbox">
+						<a href="#" target="_blank"><img src="images/linkedinlogo.svg" alt="linkedin" width="36" height="36"></a>
+						<a href="#" target="_blank"><img src="images/instagram-logo.svg" alt="instagram" width="36" height="36"></a>
+						<a href="javascript:void(0);" class="searchbtn"><img src="images/search-icon.svg" alt="search-icon" width="36" height="36"></a>
+					</div>
+					<div class="navtoggle-bar">
+						<div class="hamburger">
+				          	<span class="line"></span>
+				          	<span class="line"></span>
+				          	<span class="line"></span>
+				        </div>
+					</div>
+					<div class="mobilebg"></div>
+				</div>
+			</div>
+			<div class="bottom-header">
+				<ul class="bottom-nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#">Subscribe</a></li>
+					<li><a href="#">Blog And Use Cases</a></li>
+					<li><a href="#">FAQs</a></li>
+				</ul>
+			</div>
+		</header>
+		<section class="banner-section">
+			<img src="images/banner-home.jpg" alt="banner-home" width="1920" height="650">
+			<div class="bannertext">
+				<div class="container-fluid p-0">
+					<h1>Are IP landscape costly and effort intensive?</h1>
+					<h6>Subscribe to our AI based classification services to categorize</h6>
+					<a href="#" class="subscibebtn">SUBSCRIBE NOW <img src="images/icons/btnarrow.svg" alt="btnarrow" width="32" height="32"></a>
+				</div>
+			</div>
+		</section>
+		<section class="patents-section">
+			<div class="container p-0">
+				<div class="patents-wrap">
+					<div class="patents-text">
+						<h3><span></span>For Unlimited AI-based categorization of patents - USD300/month</h3>
+					</div>
+					<div class="patents-text">
+						<h3><span></span>For Unlimited AI-based categorization of patents - USD300/month</h3>
+					</div>
+				</div>
+				<marquee class="marq" direction="left" loop="" hspace="20px">
+					<span><span></span>For Unlimited AI-based categorization of patents - USD300/month</span>
+					<span style="margin-left:300px;"></span>
+					<span><span></span>For Unlimited AI-based categorization of patents - USD300/month</span>
+             	</marquee>
+			</div>
+		</section>
+		<section class="rpac-section">
+			<div class="container p-0">
+				<div class="rpac-wrap">
+					<div class="rpactext">
+						<h2 class="section-title">Introducing R’PAC</h2>
+						<h6>A Generative AI-based Revolutionary Platform</h6>
+					</div>
+					<div class="rpac-types">
+						<a href="#" class="rpac-typewrap">
+							<h6>for R&D, Innovation, and Strategy teams</h6>
+							<h4>Uncover Competitors’ Patent Strategies</h4>
+							<img src="images/icons/red-arrow.svg" alt="red-arrow" width="34" height="34">
+						</a>
+						<a href="#" class="rpac-typewrap">
+							<h6>For IP Teams</h6>
+							<h4>Identify Quick Category for Developing Taxonomies</h4>
+							<img src="images/icons/red-arrow.svg" alt="red-arrow" width="34" height="34">
+						</a>
+						<a href="#" class="rpac-typewrap">
+							<h6>For Universities and Students</h6>
+							<h4>Explore Patents for Desired Topics</h4>
+							<img src="images/icons/red-arrow.svg" alt="red-arrow" width="34" height="34">
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="whyrpac-section">
+			<div class="container p-0">
+				<div class="whyrpac-wrap">
+					<div class="whyrpac-text">
+						<h2 class="section-title">Why R’PAC?</h2>
+						<h6>Supercharge Your Research in the Age of Innovation</h6>
+						<p>Overcome bandwidth constraints, budget limitations, and time constraints with our cutting-edge solutions for idea exploration and IP landscape studies!</p>
+					</div>
+					<div class="whyrpac-grid">
+						<div class="whyrpac-sub">
+							<h3>Speed</h3>
+							<p>Categorize thousands of patents in a few hours</p>
+						</div>
+						<div class="whyrpac-sub">
+							<h3>Accuracy</h3>
+							<p>Achieve 80% categorization conformance with manual analysis</p>
+						</div>
+						<div class="whyrpac-sub">
+							<h3>Freedom</h3>
+							<p>Explore patents on unlimited technology topics without bandwidth, budget, or time constraints</p>
+						</div>
+						<div class="whyrpac-sub">
+							<h3>Bandwidth</h3>
+							<p>Free-up up to 70% of your bandwidth consumed in IP landscape studies</p>
+						</div>
+						<div class="whyrpac-sub">
+							<h3>Budget</h3>
+							<p>Get unlimited AI-based categorization at only USD300/month</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="gradvideo-section">
+			<div class="container p-0">
+				<div class="gradvideobox">
+					<img src="images/grad-video-gif.gif" alt="grad-video-gif" width="690" height="388">
+				</div>
+			</div>
+		</section>
+		<section class="subscription-model-section">
+			<div class="container p-0">
+				<h2 class="section-title">How does our subscription model work?</h2>
+				<p>Our subscription service for R’PAC is transparent, flexible, and scalable, <br>with unlimited access to patent libraries.</p>
+
+				<div class="subscription-model-design">
+					<div class="subscription-modelsub first">
+						<h6>Fill Subscription Details</h6>
+					</div>
+					<div class="subscription-modelsub second">
+						<h6>Make Payment</h6>
+					</div>
+					<div class="subscription-modelsub third">
+						<h6>Aranca Will Share RPAC <br>Login Credentials</h6>
+					</div>
+					<div class="subscription-modelsub four">
+						<h6>Upload Requirement <span>(Competitors Names OR Patent List )</span></h6>
+					</div>
+					<div class="subscription-modelsub five">
+						<h6>Receive Output Over Email</h6>
+					</div>
+				</div>
+
+			</div>
+		</section>
+		<section class="subform-section">
+			<div class="container p-0">
+				<h2 class="section-title">SUBSCRIBE NOW!</h2>
+				<div class="subform-wrap">
+					<form class="subscribenow-form" id="subscribenow" autocomplete="off">
+						<div class="form-group">
+							<input type="text" name="full_name" class="form-control" placeholder="Full Name" required>
+						</div>
+						<div class="form-group">
+							<input type="text" name="company_name" class="form-control" placeholder="Company Name" required>
+						</div>
+						<div class="form-group">
+							<input type="text" name="designation" class="form-control" placeholder="Designation" required>
+						</div>
+						<div class="form-group">
+							<input type="email" name="email" class="form-control" placeholder="Email ID" required>
+						</div>
+						<div class="form-group">
+							<input type="text" name="company_name_2" class="form-control" placeholder="Company Name" required>
+						</div>
+						<div class="form-group">
+							<input type="tel" name="phone_number" class="form-control" placeholder="Phone No" required>
+						</div>
+						<div class="btn-grp">
+							<button type="submit">Submit</button>
+						</div>
+					</form>
+					<div class="thankyoumsg">
+						<div class="thankyoumsgin">
+							<img src="images/form-submitted.png" alt="form-submitted" width="128">
+							<h3>Thank You !!</h3>
+							<p>Your Submission has been send.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="samplereport-section">
+			<div class="container p-0">
+				<h2 class="section-title">Sample Reports</h2>
+				<div class="filterwrap">
+					<div class="filterbox">
+						<div class="filtersub">
+							<label>Industries</label>
+							<select class="select2 form-control filter" id="filter-company">
+								<option disabled="disabled" selected="selected">Select</option>
+								<optgroup label="Semiconductor">
+									<option value="semi-com-1">Company 1</option>
+									<option value="semi-com-2">Company 2</option>
+									<option value="semi-com-3">Company 3</option>
+								</optgroup>
+								<optgroup label="Med-Tech">
+									<option value="medtech-com-1">Med-Tech Company 1</option>
+									<option value="medtech-com-2">Med-Tech Company 2</option>
+									<option value="medtech-com-3">Med-Tech Company 3</option>
+								</optgroup>
+								<optgroup label="Packaging">
+									<option value="pack-com-1">PackagingCompany 1</option>
+									<option value="pack-com-2">PackagingCompany 2</option>
+									<option value="pack-com-3">Packaging Company 3</option>
+								</optgroup>
+								<optgroup label="CPG">
+									<option value="cpg-com-1">CPG Company 1</option>
+									<option value="cpg-com-2">CPG Company 2</option>
+									<option value="cpg-com-3">CPG Company 3</option>
+								</optgroup>
+							</select>
+						</div>
+						<div class="filtersub">
+							<label>Technology</label>
+							<select class="select2 form-control filter" id="filter-type" data-placeholder="Select Technology">
+								<option></option>
+								<option value="green-hydrogen">Green Hydrogen</option>
+								<option value="6g">6G</option>
+								<option value="smart-packaging">Smart Packaging</option>
+							</select>
+						</div>
+					</div>
+					<div class="filtertable-wrap">
+						<div class="filtertable-wrap_body">
+							<table class="filtertable">
+								<thead>
+									<tr>
+										<th>Patent Number</th>
+										<th>Title</th>
+										<th>Patent Focus</th>
+										<th>Lvl 1</th>
+										<th>Lvl 2</th>
+										<th>Unguided Tags</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Patent 01</td>
+										<td class="company" data-company="pack-com-1">Alfred Inc</td>
+										<td class="contact" data-contact="6g">Alfred PF 6G</td>
+										<td>LVL 01</td>
+										<td>LVL 02</td>
+										<td>No</td>
+									</tr>
+									<tr>
+										<td>Patent 02</td>
+										<td class="company" data-company="cpg-com-2">Pennyworth Inc</td>
+										<td class="contact" data-contact="6g">Pennyworth PF 6G</td>
+										<td>LVL 01</td>
+										<td>LVL 02</td>
+										<td>No</td>
+									</tr>
+									<tr>
+										<td>Patent 03</td>
+										<td class="company" data-company="cpg-com-2">Wayne Inc</td>
+										<td class="contact" data-contact="smart-packaging">Wayne Smart Packaging</td>
+										<td>LVL 01</td>
+										<td>LVL 02</td>
+										<td>Yes</td>
+									</tr>
+									<tr>
+										<td>Patent 04</td>
+										<td class="company" data-company="semi-com-1">Wayne Inc</td>
+										<td class="contact" data-contact="green-hydrogen">Wayne Green Hydrogen</td>
+										<td>LVL 01</td>
+										<td>LVL 02</td>
+										<td>Yes</td>
+									</tr>
+									<tr>
+										<td>Patent 05</td>
+										<td class="company" data-company="semi-com-1">Wayne Inc</td>
+										<td class="contact" data-contact="green-hydrogen">Wayne Green Hydrogen</td>
+										<td>LVL 01</td>
+										<td>LVL 02</td>
+										<td>Yes</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="tablebtnwrap"><button class="left"><i class="fa fa-angle-left" aria-hidden="true"></i></button><button class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></button></div>
+				</div>
+			</div>
+		</section>
+		<section class="faqs-section">
+			<div class="container p-0">
+				<h2 class="section-title">FAQs</h2>
+				<div class="faqs-wrap">
+					<div class="faqbox">
+						<div class="faq-title active">
+							<h3>Which is the underlying technology of R’PAC?</h3>
+						</div>
+						<div class="faq-content" style="display: block;">
+							<p>R’PAC uses a combination of generative AI based large language models (LLMs) such as GPT 3.5, GPT 4, DaVinci, Google Bard to analyze and categorize patents. In future, if new models are added in these technologies, R’PAC would automatically get upgraded.</p>
+						</div>
+					</div>
+					<div class="faqbox">
+						<div class="faq-title">
+							<h3>Is your data secure while using R’PAC for analysis?</h3>
+						</div>
+						<div class="faq-content">
+							<p>R’PAC uses a combination of generative AI based large language models (LLMs) such as GPT 3.5, GPT 4, DaVinci, Google Bard to analyze and categorize patents. In future, if new models are added in these technologies, R’PAC would automatically get upgraded.</p>
+						</div>
+					</div>
+					<div class="faqbox">
+						<div class="faq-title">
+							<h3>For which use cases can R’PAC be used by IP professionals?</h3>
+						</div>
+						<div class="faq-content">
+							<p>R’PAC uses a combination of generative AI based large language models (LLMs) such as GPT 3.5, GPT 4, DaVinci, Google Bard to analyze and categorize patents. In future, if new models are added in these technologies, R’PAC would automatically get upgraded.</p>
+						</div>
+					</div>
+					<div class="faqbox">
+						<div class="faq-title">
+							<h3>Which type of documents can R’PAC classify?</h3>
+						</div>
+						<div class="faq-content">
+							<p>R’PAC uses a combination of generative AI based large language models (LLMs) such as GPT 3.5, GPT 4, DaVinci, Google Bard to analyze and categorize patents. In future, if new models are added in these technologies, R’PAC would automatically get upgraded.</p>
+						</div>
+					</div>
+					<div class="faqbox">
+						<div class="faq-title">
+							<h3>What is the accuracy compared to manual analysis as separate QnA.</h3>
+						</div>
+						<div class="faq-content">
+							<p>R’PAC uses a combination of generative AI based large language models (LLMs) such as GPT 3.5, GPT 4, DaVinci, Google Bard to analyze and categorize patents. In future, if new models are added in these technologies, R’PAC would automatically get upgraded.</p>
+						</div>
+					</div>
+					<div class="faqbox">
+						<div class="faq-title">
+							<h3>What is the input type for R’PAC tool?</h3>
+						</div>
+						<div class="faq-content">
+							<p>R’PAC uses a combination of generative AI based large language models (LLMs) such as GPT 3.5, GPT 4, DaVinci, Google Bard to analyze and categorize patents. In future, if new models are added in these technologies, R’PAC would automatically get upgraded.</p>
+						</div>
+					</div>
+					<div class="faqbox">
+						<div class="faq-title">
+							<h3>Which languages are supported by R’PAC?</h3>
+						</div>
+						<div class="faq-content">
+							<p>R’PAC uses a combination of generative AI based large language models (LLMs) such as GPT 3.5, GPT 4, DaVinci, Google Bard to analyze and categorize patents. In future, if new models are added in these technologies, R’PAC would automatically get upgraded.</p>
+						</div>
+					</div>
+					<div class="faqbox">
+						<div class="faq-title">
+							<h3>What is received after subscription?</h3>
+						</div>
+						<div class="faq-content">
+							<p>R’PAC uses a combination of generative AI based large language models (LLMs) such as GPT 3.5, GPT 4, DaVinci, Google Bard to analyze and categorize patents. In future, if new models are added in these technologies, R’PAC would automatically get upgraded.</p>
+						</div>
+					</div>
+					<div class="faqbox">
+						<div class="faq-title">
+							<h3>What output can be expected from R’PAC?</h3>
+						</div>
+						<div class="faq-content">
+							<p>R’PAC uses a combination of generative AI based large language models (LLMs) such as GPT 3.5, GPT 4, DaVinci, Google Bard to analyze and categorize patents. In future, if new models are added in these technologies, R’PAC would automatically get upgraded.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="blogarticles-section">
+			<div class="container p-0">
+				<h2 class="section-title">Blogs And Articles</h2>
+				<div class="blog-wrap">
+					<article class="post-article">
+						<div class="blog-thumb">
+							<a href="#"><img src="images/blog-thumb-1.jpg" alt="blog-thumb-1" width="379" height="257"></a>
+						</div>
+						<div class="blog-text">
+							<h3><a href="#">Repurposing Anti-cancer Drugs for Treatment of Alzheimer's Disease</a></h3>
+						</div>
+					</article>
+					<article class="post-article">
+						<div class="blog-thumb">
+							<a href="#"><img src="images/blog-thumb-2.jpg" alt="blog-thumb-2" width="379" height="257"></a>
+						</div>
+						<div class="blog-text">
+							<h3><a href="#">Repurposing Anti-cancer Drugs for Treatment of Alzheimer's Disease</a></h3>
+						</div>
+					</article>
+					<article class="post-article">
+						<div class="blog-thumb">
+							<a href="#"><img src="images/blog-thumb-3.jpg" alt="blog-thumb-3" width="379" height="257"></a>
+						</div>
+						<div class="blog-text">
+							<h3><a href="#">Repurposing Anti-cancer Drugs for Treatment of Alzheimer's Disease</a></h3>
+						</div>
+					</article>
+					<article class="post-article">
+						<div class="blog-thumb">
+							<a href="#"><img src="images/blog-thumb-4.jpg" alt="blog-thumb-4" width="379" height="257"></a>
+						</div>
+						<div class="blog-text">
+							<h3><a href="#">Repurposing Anti-cancer Drugs for Treatment of Alzheimer's Disease</a></h3>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="mainfooter">
+				<div class="container-fluid">
+					<div class="footerflex">
+						<div class="footersub">
+							<h3>About Us</h3>
+							<ul class="footlinks">
+				             	<li><a href="#">What We Believe</a></li>
+				             	<li><a href="#">Our Values</a></li>
+				             	<li><a href="#">Our Team</a></li>
+				            </ul>
+						</div>
+						<div class="footersub">
+							<h3>Services</h3>
+				            <ul class="footlinks">
+					            <li><a href="#">Growth Advisory</a></li>
+					            <li><a href="#">Technology | IP Research &amp; Intelligence</a></li>
+					            <li><a href="#">Procurement &amp; Supply Chain Intelligence</a></li>
+					            <li><a href="#">Investment Research &amp; Analytics</a></li>
+					            <li><a href="#">Quantitative Research</a></li>
+					            <li><a href="#">Valuation &amp; Financial Advisory</a></li>
+								<li><a href="#">Editorial &amp; Presentation</a></li>
+					        </ul>
+						</div>
+						<div class="footersub">
+							<h3>Knowledge Library</h3>
+							<ul class="footlinks">
+				             	<li><a href="#">Articles</a></li>
+				             	<li><a href="#">Blogs</a></li>
+				             	<li><a href="#">Special Reports</a></li>
+				            </ul>
+						</div>
+						<div class="footersub">
+							<h3>Contact Us</h3>
+							<ul class="footlinks">
+				             	<li><a href="#">What We Believe</a></li>
+				             	<li><a href="#">Media Room</a></li>
+				             	<li><a href="#">Sitemap</a></li>
+				            </ul>
+						</div>
+						<div class="footersub">
+							<h3>Legal</h3>
+							<ul class="footlinks">
+				             	<li><a href="#">Privacy & Cookies Policy</a></li>
+				             	<li><a href="#">Legal/Terms of Use</a></li>
+				             	<li><a href="#">Accessibility</a></li>
+				             	<li><a href="#">MGT-7</a></li>
+				            </ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="copyright">
+				<div class="container-fluid">
+					<div class="copyflex">
+						<p>&copy; <span id="copyear"></span>, Aranca. All rights reserved.</p>
+						<ul class="listcountry">
+							<li>United States</li>
+							<li>United Kingdom</li>
+							<li>China</li>
+							<li>India</li>
+							<li>Dubai</li>
+							<li>KSA</li>
+							<li>Japan</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/additional-methods.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.8/js/select2.min.js" defer></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.subscribenow-form').validate({
+				 rules: {
+				 	full_name: { 
+		                required: true,
+		                lettersonly: true
+		            },
+		            email: { 
+		                required: true, 
+		                email: true
+		            },
+		            phone_number: { 
+		                required: true, 
+		                number: true
+		            },
+				 },
+				 messages: {
+					full_name: { 
+                		required: "Please enter a full name.",
+            		},
+					phone_number: { 
+                		required: "Please enter a valid phone number.",
+            		},
+					company_name: { 
+                		required: "Please enter a company name.",
+            		},
+					company_name_2: { 
+                		required: "Please enter a company name.",
+            		}, 
+				},
+				submitHandler: function(form,e) {
+					e.preventDefault();
+			    	$(".thankyoumsg").fadeIn(500);
+				}
+			});
+
+			jQuery.validator.addMethod("lettersonly", function(value, element) {
+			  return this.optional(element) || /^[^\s][a-zA-Z\s]+$/i.test(value);
+			}, "Letters only please");
+		});
+
+
+
+
+	</script>
+</body>
+</html>
